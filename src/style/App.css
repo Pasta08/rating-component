@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  background: #121417;
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.app_container {
+  width: 50vh;
+  height: 470px;
+  background: radial-gradient(circle at top, #252d37, #121417);
+  border-radius: 30px;
+  padding: 40px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.app_container .star_icon_wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #252d37;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.app_container h1 {
+  color: white;
+  font-family: "Overpass", "sans-serif";
+}
+
+.app_container .text {
+  font-size: 15px;
+  font-family: "Overpass", "sans-serif";
+  color: #7c8798;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.app_container .rating_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 92%;
+}
+
+.app_container .rating_buttons .rating_btn {
+  cursor: pointer;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  border: none;
+  background: #252d37;
+  color: #959eac;
+}
+
+.app_container .rating_buttons .rating_btn:hover {
+  background: #fb7413;
+}
+
+.app_container .submit_btn {
+  background: #fb7413;
+  height: 54px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-family: "Overpass", "sans-serif";
+  font-weight: 700;
+  color: white;
+}
+
+.app_container .submit_btn:hover {
+  background: white;
+  color: #fb7413;
+}
+
+@media screen and (max-width: 640px) {
+  .app_container {
+    width: 50vh;
+    height: 450px;
+  }
+  .app_container .rating_buttons .rating_btn {
+    width: 43px;
+    height: 43px;
+  }
+  .app_container .submit_btn {
+    height: 45px;
+  }
+}
+
+.app_container_thank_you {
+  width: 50vh;
+  height: 470px;
+  background: radial-gradient(circle at top, #252d37, #121417);
+  border-radius: 30px;
+  padding: 40px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.app_container_thank_you .thank_you_img {
+  width: 55%;
+}
+
+.app_container_thank_you .thank_you_selection {
+  padding: 8px 23px;
+  border-radius: 30px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: orange;
+  font-family: "Overpass", "Sans-serif";
+  font-size: 14px;
+  background: #252d37;
+}
+
+.app_container_thank_you .thank_you_title {
+  color: white;
+  font-family: "Overpass", "sans-serif";
+}
+
+.app_container_thank_you .thank_you_text {
+  font-size: 15px;
+  font-family: "Overpass", "sans-serif";
+  color: #7c8798;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+/*# sourceMappingURL=App.css.map */
