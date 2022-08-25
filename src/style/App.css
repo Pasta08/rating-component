@@ -107,6 +107,46 @@
   }
 }
 
+@media screen and (max-width: 470px) {
+  .app_container {
+    width: 42vh;
+    height: 430px;
+  }
+  .app_container h1 {
+    font-size: 29px;
+  }
+  .app_container .text {
+    font-size: 14px;
+  }
+  .app_container .rating_buttons .rating_btn {
+    width: 43px;
+    height: 43px;
+  }
+  .app_container .submit_btn {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  .app_container {
+    width: 38vh;
+    height: 430px;
+  }
+  .app_container h1 {
+    font-size: 29px;
+  }
+  .app_container .text {
+    font-size: 14px;
+  }
+  .app_container .rating_buttons .rating_btn {
+    width: 43px;
+    height: 43px;
+  }
+  .app_container .submit_btn {
+    height: 45px;
+  }
+}
+
 .app_container_thank_you {
   width: 50vh;
   height: 470px;

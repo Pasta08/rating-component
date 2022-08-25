@@ -66,6 +66,7 @@ $very-darK:hsl(216, 12%, 8%);
             &:hover{
                 background: $orange;
             }
+
         }
     }
 
@@ -104,6 +105,54 @@ $very-darK:hsl(216, 12%, 8%);
 
         }
     }
+
+@media screen and (max-width:470px){
+        .app_container{
+            width: 42vh;
+            height: 430px;
+            h1{
+                font-size: 29px;
+            }
+            .text{
+                font-size: 14px;
+            }
+            .rating_buttons{
+
+                 .rating_btn{
+                    width: 43px;
+                    height: 43px;
+        }
+        }
+            .submit_btn{
+                height: 45px;
+        }
+
+    }
+}
+@media screen and (max-width:394px){
+        .app_container{
+            width: 38vh;
+            height: 430px;
+            h1{
+                font-size: 29px;
+            }
+            .text{
+                font-size: 14px;
+            }
+            .rating_buttons{
+
+                 .rating_btn{
+                    width: 43px;
+                    height: 43px;
+        }
+        }
+            .submit_btn{
+                height: 45px;
+        }
+
+    }
+}
+
 
 .app_container_thank_you{
     width: 50vh;
